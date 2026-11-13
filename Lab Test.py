@@ -1,7 +1,5 @@
 
 # Library Book Borrowing System
-
-# Dictionary to store book details
 books = {
     101: "Python Programming",
     102: "Data Structures",
@@ -10,16 +8,10 @@ books = {
     105: "Artificial Intelligence"
 }
 
-# Set of available book IDs
 available_books = set(books.keys())
-
-# Set of borrowed book IDs
 borrowed_books = set()
-
-# List to store borrowing records as tuples
 records = []
 
-# Dictionary to store borrow counts per student
 borrow_count = {}
 
 while True:
